@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi primera WebApp en Azure</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #f9f9f9; 
+      margin: 0; 
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    header {
+      background-color: #0078d7;
+      color: white;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    h2.section-title {
+      margin-top: 40px;
+      color: #0078d7;
+      font-size: 28px;
+    }
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card i {
+      font-size: 36px;
+      color: #0078d7;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #0078d7;
+    }
+    .card p {
+      font-size: 16px;
+      color: #555;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Hola, soy JOSÉ LUIS RODRÍGUEZ</h1>
+    <p>Esta página fue desplegada en <span style="font-weight:bold; color:#ff4500;">Azure App Service</span> usando GitHub 🎉</p>
+    <p>Personalízala y hazla tuya ✨</p>
+  </header>
+
+  <!-- Título de la sección de cards -->
+  <h2 class="section-title">Ventajas de PaaS frente a IaaS</h2>
+
+  <section class="cards-container">
+    <div class="card">
+      <i class="fas fa-server"></i>
+      <h3>Gestión de Servidores</h3>
+      <p>PaaS no requiere administrar servidores; IaaS sí necesita configuración y mantenimiento manual.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-rocket"></i>
+      <h3>Despliegue Rápido</h3>
+      <p>Con PaaS, las aplicaciones se despliegan en minutos; IaaS requiere pasos adicionales para configurar infraestructura.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-chart-line"></i>
+      <h3>Escalabilidad Automática</h3>
+      <p>PaaS ajusta recursos según demanda automáticamente, mientras que IaaS necesita scripts o intervención manual.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Seguridad y Parches</h3>
+      <p>PaaS se encarga de actualizaciones y parches; IaaS deja esta responsabilidad al usuario.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-code"></i>
+      <h3>Enfoque en Desarrollo</h3>
+      <p>PaaS permite concentrarse en escribir código y funcionalidad; IaaS se enfoca en infraestructura.</p>
+    </div>
+  </section>
+
+  <footer>
+    🌐 Aprende más sobre <span style="font-weight:bold; color:#ff4500;">PaaS</span> y <span style="font-weight:bold; color:#ff4500;">IaaS</span> en Azure.
+  </footer>
+
+</body>
+</html>
